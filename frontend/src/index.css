@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+  font-family: "Inter", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color: #263750;
+  background: #F3F5F9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.financial-number {
+  font-family: "IBM Plex Mono", monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.heading-secondary {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+
+:root {
+  /* Brand colors */
+  --navy: #0B1936;
+  --navy-light: #14264A;
+  --blue: #2458F5;
+  --blue-hover: #1947D6;
+
+  /* Light theme */
+  --page-bg: #F3F5F9;
+  --surface: #FFFFFF;
+  --surface-hover: #F7F9FC;
+  --border: #DCE5F5;
+  --text-primary: #263750;
+  --text-muted: #71819A;
+
+  /* Financial colors */
+  --profit: #168B53;
+  --profit-bg: #E8F7EF;
+  --loss: #D23D4E;
+  --loss-bg: #FDECEF;
+
+  /* UI details */
+  --radius-card: 14px;
+  --radius-button: 9px;
+  --shadow-card: 0 4px 18px rgba(11, 25, 54, 0.05);
+}
